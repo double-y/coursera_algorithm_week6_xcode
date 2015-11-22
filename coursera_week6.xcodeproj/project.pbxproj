@@ -10,6 +10,8 @@
 		5F0B23DB1C010C3100350193 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F0B23DA1C010C3100350193 /* main.cpp */; };
 		5F0B23E21C010CAA00350193 /* count_in_certain_range.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F0B23E01C010CAA00350193 /* count_in_certain_range.cpp */; };
 		5F0B23E31C010CAC00350193 /* count_in_certain_range.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F0B23E01C010CAA00350193 /* count_in_certain_range.cpp */; };
+		5F714E6B1C015ECB0044BE27 /* median_search.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F714E691C015ECB0044BE27 /* median_search.cpp */; };
+		5F714E6C1C0163290044BE27 /* median_search.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F714E691C015ECB0044BE27 /* median_search.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,6 +43,9 @@
 		5F0B23E01C010CAA00350193 /* count_in_certain_range.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = count_in_certain_range.cpp; sourceTree = "<group>"; };
 		5F0B23E11C010CAA00350193 /* count_in_certain_range.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = count_in_certain_range.h; sourceTree = "<group>"; };
 		5F0B23E41C01222E00350193 /* algo1-programming_prob-2sum.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "algo1-programming_prob-2sum.txt"; sourceTree = "<group>"; };
+		5F178D9E1C0167FE001A9953 /* Median.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Median.txt; sourceTree = "<group>"; };
+		5F714E691C015ECB0044BE27 /* median_search.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = median_search.cpp; sourceTree = "<group>"; };
+		5F714E6A1C015ECB0044BE27 /* median_search.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = median_search.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +89,8 @@
 			children = (
 				5F0B23E01C010CAA00350193 /* count_in_certain_range.cpp */,
 				5F0B23E11C010CAA00350193 /* count_in_certain_range.h */,
+				5F714E691C015ECB0044BE27 /* median_search.cpp */,
+				5F714E6A1C015ECB0044BE27 /* median_search.h */,
 			);
 			path = coursera_week6;
 			sourceTree = "<group>";
@@ -91,6 +98,7 @@
 		5F0B23D91C010C3100350193 /* test_project */ = {
 			isa = PBXGroup;
 			children = (
+				5F178D9E1C0167FE001A9953 /* Median.txt */,
 				5F0B23E41C01222E00350193 /* algo1-programming_prob-2sum.txt */,
 				5F0B23DF1C010C3F00350193 /* catch.hpp */,
 				5F0B23DA1C010C3100350193 /* main.cpp */,
@@ -176,6 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F0B23E21C010CAA00350193 /* count_in_certain_range.cpp in Sources */,
+				5F714E6B1C015ECB0044BE27 /* median_search.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,6 +192,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F714E6C1C0163290044BE27 /* median_search.cpp in Sources */,
 				5F0B23DB1C010C3100350193 /* main.cpp in Sources */,
 				5F0B23E31C010CAC00350193 /* count_in_certain_range.cpp in Sources */,
 			);
@@ -317,6 +327,7 @@
 				5F0B23D31C010C0900350193 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5F0B23DC1C010C3100350193 /* Build configuration list for PBXNativeTarget "test_project" */ = {
 			isa = XCConfigurationList;
@@ -325,6 +336,7 @@
 				5F0B23DE1C010C3100350193 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -14,7 +14,7 @@ bool check_sum(vector<long> sorted_vec, long sum){
     vector<long>::iterator lower = sorted_vec.begin();
     vector<long>::iterator higher = sorted_vec.end()-1;
     while(lower<higher){
-        if (sum == *lower + *higher){ cout << *lower << '+' << *higher << endl; return true;}
+        if (sum == *lower + *higher)return true;
         else if(sum>*lower + *higher) higher--;
         else lower++;
     }
@@ -36,14 +36,13 @@ int count_in_certain_range(vector<long> vec, int min, int max){
     return count;
 }
 
-vector<long> exec_file(string file_name){
+vector<long> exec_check_sum(string file_name){
     ifstream inFile(file_name);
     vector<long> data;
     long number;
     while(inFile >> number){
         data.push_back(number);
     }
-    //427
     cout<<count_in_certain_range(data, -10000, 10000) << endl;
     return data;
 }
